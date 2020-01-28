@@ -9,7 +9,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import com.hibernate.models.Employee;
-import com.hibernate.repositires.EmployeeRepository;
+import com.hibernate.repositories.EmployeeRepository;
 
 @Service
 @CacheConfig(cacheNames = "employees",cacheManager = "cacheManager")

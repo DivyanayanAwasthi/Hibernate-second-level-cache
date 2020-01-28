@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.hibernate.models.Employee;
-import com.hibernate.repositires.EmployeeRepository;
+import com.hibernate.repositories.EmployeeRepository;
 import com.hibernate.services.EmployeeService;
 
 @EnableCaching
